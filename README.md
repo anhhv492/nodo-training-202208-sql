@@ -1,0 +1,1 @@
+# nodo-training-202208-sql
