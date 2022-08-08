@@ -112,7 +112,9 @@ SELECT JOB, TO_CHAR(HIREDATE,'YYYY') FROM EMP WHERE TO_CHAR(HIREDATE,'YYYY')='19
                                                 AND TO_CHAR(HIREDATE,'YYYY')!='1994';
 
 --5.14 Tìm những nhân viên kiếm được lương cao nhất trong mỗi loại nghề nghiệp.
-SELECT DISTINCT MAX(SAL),JOB FROM EMP GROUP BY JOB;
+SELECT EMPNO,ENAME,JOB,SAL FROM EMP
+                           WHERE SAL IN (SELECT MAX(SAL) FROM EMP GROUP BY JOB) ORDER BY SAL DESC ;
 
 --5.17 Hiển thị những nhân viên có mức lương lớn hơn lương TB của phòng ban mà họ làm
-
+SELECT EMPNO,ENAME,JOB,SAL FROM EMP
+WHERE SAL IN (SELECT AVG(SAL) FROM EMP GROUP BY JOB) ORDER BY SAL DESC ;
