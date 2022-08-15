@@ -1,0 +1,19 @@
+public class MathExample{
+	public static void main(String[]args){
+		int i=4;
+		int j=-8;
+		double x=47.1;
+		double y=1.79;
+		System.out.println("|"+j+"|is"+Math.abs(j));
+		System.out.println("|"+x+"|is"+Math.abs(x));
+
+		System.out.println(x+"is approximately"+Math.round(x));
+		System.out.println("the ceilling of"+i+"is"+Math.ceil(i));
+		System.out.println("the ceilling of"+y+"is"+Math.ceil(y));
+		System.out.println("the floor of"+x+"is"+Math.floor(x));
+		System.out.println("min("+x+","+y+")is"+Math.min(x,y));
+	//2
+		System.out.println("Pi is"+);
+	
+	}
+}

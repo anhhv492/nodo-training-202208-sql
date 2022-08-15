@@ -1,0 +1,8 @@
+public class SwitchExample{
+	public static void main(String[]args){
+		int value = Integer.parseInt(args[0]);
+		switch(value){
+			
+		}
+	}
+}
