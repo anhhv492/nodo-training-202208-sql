@@ -1,6 +1,0 @@
-
-0
-java:S1220""Move this file to a named package.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ôî÷™ùÿÿÿÿ8æÍş©0
-T
-java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(Ôî÷™ùÿÿÿÿ
