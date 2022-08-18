@@ -1,0 +1,10 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ôî÷™ùÿÿÿÿ8Ú¢÷ª0
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(Ôî÷™ùÿÿÿÿ8„Ú¢÷ª0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8…Ÿ£÷ª0
+R
+java:S1128"0Remove this unused import 'java.util.HexFormat'.(‡Õæ×úÿÿÿÿ8†Ÿ£÷ª0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8†Ÿ£÷ª0
