@@ -35,18 +35,35 @@ public class PrintNumber implements Runnable{
 //            System.out.println(current.getName()+"is stoped!");
 //        }
 //    }
+//    @Override
+//    public void run() {
+//        Thread current = Thread.currentThread();
+//        while (number<10){
+//            number++;
+//            System.out.println(current.getName()+"number is\""+number+"\"");
+//            try {
+//                Thread.sleep(300);
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
+//        }
+//        System.out.println(current.getName()+"is stoped!");
+//    }
     @Override
     public void run() {
         Thread current = Thread.currentThread();
-        while (number<10){
+        while (number<30){
             number++;
-            System.out.println(current.getName()+"number is\""+number+"\"");
             try {
+                System.out.println(current.getName()+"number is\""+number+"\"");
                 Thread.sleep(300);
+                if (number%10==0){
+                    break;
+                }
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }
-        System.out.println(current.getName()+"is stoped!");
+        System.out.println(current.getName()+"is stopped");
     }
 }

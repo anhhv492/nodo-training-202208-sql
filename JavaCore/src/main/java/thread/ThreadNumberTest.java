@@ -8,22 +8,24 @@ public class ThreadNumberTest {
         PrintNumber number = new PrintNumber();
         Thread thread = new Thread(number);
         thread.setName("VietAnh_Thread");
+        thread.setDaemon(true);
         thread.start();
-//        while (thread.isAlive()){
-//            if(number.getNumber()%10==0){
-//                number.setAlive(false);
-//                try {
-//                    Thread.sleep(1000);
-//                } catch (InterruptedException e) {
-//                    throw new RuntimeException(e);
-//                }
-//            }
-//        }
+        while (thread.isAlive()){
+            if(number.getNumber()%10==0){
+                number.setAlive(false);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
         try {
             Thread.currentThread().join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        //step 2
         while (thread.isAlive()){
             if(number.getNumber()%10==0){
                 number.setAlive(false);
@@ -34,7 +36,5 @@ public class ThreadNumberTest {
                 }
             }
         }
-        thread.setName("Vanh Thread say hello");
-        thread.setName("Vanh Thread say goodbye");
     }
 }
