@@ -1,0 +1,7 @@
+
+
+java:S1192"rDefine a constant instead of duplicating this literal "insert into vanh_student(id, genereted, name,age)" 3 times.(×ñíÿÿÿÿÿ
+]
+java:S2259"GA "NullPointerException" could be thrown; "statement" is nullable here.(şÈÒ¨
+b
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ
