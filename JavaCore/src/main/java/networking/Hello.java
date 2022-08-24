@@ -9,6 +9,7 @@ import java.rmi.server.UnicastRemoteObject;
 public interface Hello extends Remote {
     String say(String name) throws RemoteException;
 }
+
 class Server implements Hello{
     @Override
     public String say(String name) throws RemoteException {
