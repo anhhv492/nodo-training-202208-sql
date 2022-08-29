@@ -30,6 +30,15 @@ public class Student {
         return age;
     }
 
+    public Student() {
+    }
+
+    public Student(int id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     public void setAge(int age) {
         this.age = age;
     }
