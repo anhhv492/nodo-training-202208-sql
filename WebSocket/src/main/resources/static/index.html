@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN Spring WebSocket</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script type="text/javascript">
+        var stompClient=null;
+        function disconnect() {
+            if(stompClient!=null){
+                stompClient.disconnect;
+            }
+            console.log("-- Disconnected stomp client...")
+        }
+        function connect() {
+            var socket = new SockJS('/message');
+            stompClient =Stomp.over(socket);
+            if(stompClient!=null){
+            stompClient.connect({},function (frame){
+                console.log('-- Connected: '+frame);
+            });
+            }
+        }
+    </script>
+</head>
+<body onload="disconnect()" >
+<div style="text-align: center">
+    <h2>Welcome to Hn Chat Box : vietanhvs</h2>
+    <div style="margin-bottom: 10px">
+      <button id="connect" onclick="connect()">Connect</button>
+      <button id="disconnect" onclick="disconnect()">Disconnect</button>
+    </div>
+    <div id="conversationDiv">
+        <label>Message: </label>
+        <input type="text" id="message">
+        <button id="send" onclick="send();">Send</button>
+        <p id="response"></p>
+    </div>
+</div>
+</body>
+</html>

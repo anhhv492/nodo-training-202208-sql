@@ -1,131 +1,225 @@
-[2022-08-30 10:44:16] INFO [http-nio-8080-exec-5] HomeController.home(28) | Da truy cap
-[2022-08-30 10:44:51] INFO [http-nio-8080-exec-1] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:44] INFO [http-nio-8080-exec-1] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:45] INFO [http-nio-8080-exec-2] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:45] INFO [http-nio-8080-exec-3] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:45] INFO [http-nio-8080-exec-4] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:45] INFO [http-nio-8080-exec-5] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:46] INFO [http-nio-8080-exec-6] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:46] INFO [http-nio-8080-exec-7] HomeController.home(28) | Da truy cap
-[2022-08-30 10:47:46] INFO [http-nio-8080-exec-8] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:22] INFO [http-nio-8080-exec-1] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:23] INFO [http-nio-8080-exec-2] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:23] INFO [http-nio-8080-exec-3] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:38] INFO [http-nio-8080-exec-1] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:39] INFO [http-nio-8080-exec-2] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:39] INFO [http-nio-8080-exec-3] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:39] INFO [http-nio-8080-exec-4] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:39] INFO [http-nio-8080-exec-5] HomeController.home(28) | Da truy cap
-[2022-08-30 10:48:39] INFO [http-nio-8080-exec-6] HomeController.home(28) | Da truy cap
-[2022-08-30 11:13:09] INFO [http-nio-8080-exec-1] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:12] INFO [http-nio-8080-exec-2] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:12] INFO [http-nio-8080-exec-3] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-4] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-5] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-6] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-7] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-8] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:13] INFO [http-nio-8080-exec-9] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:14] INFO [http-nio-8080-exec-10] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:15] INFO [http-nio-8080-exec-1] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:15] INFO [http-nio-8080-exec-2] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:16] INFO [http-nio-8080-exec-3] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:16] INFO [http-nio-8080-exec-4] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:16] INFO [http-nio-8080-exec-5] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:16] INFO [http-nio-8080-exec-6] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:33] INFO [http-nio-8080-exec-1] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:13:41] INFO [http-nio-8080-exec-5] HomeController.login(47) | Login success anonymousUser
-[2022-08-30 11:20:34] INFO [http-nio-8080-exec-3] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:20:42] INFO [http-nio-8080-exec-1] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:20:49] INFO [http-nio-8080-exec-6] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:20:56] INFO [http-nio-8080-exec-1] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:20:59] INFO [http-nio-8080-exec-4] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:21:01] INFO [http-nio-8080-exec-6] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:21:07] INFO [http-nio-8080-exec-5] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:21:11] INFO [http-nio-8080-exec-10] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:21:21] INFO [http-nio-8080-exec-3] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:22:26] INFO [http-nio-8080-exec-4] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:22:30] INFO [http-nio-8080-exec-10] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:30:01] INFO [http-nio-8080-exec-2] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:30:14] INFO [http-nio-8080-exec-8] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:39:51] INFO [http-nio-8080-exec-4] HomeController.login(48) | Login success anonymousUser
-[2022-08-30 11:50:32] INFO [http-nio-8080-exec-8] HomeController.home(30) | Da truy cap
-[2022-08-30 11:51:01] INFO [http-nio-8080-exec-10] HomeController.home(30) | Da truy cap
-[2022-08-30 11:52:23] INFO [http-nio-8080-exec-2] HomeController.home(30) | Da truy cap
-[2022-08-30 11:52:27] INFO [http-nio-8080-exec-3] HomeController.home(30) | Da truy cap
-[2022-08-30 11:53:14] INFO [http-nio-8080-exec-5] HomeController.login(49) | Login success name
-[2022-08-30 11:53:49] INFO [http-nio-8080-exec-8] HomeController.login(49) | Login success anonymousUser
-[2022-08-30 11:53:59] INFO [http-nio-8080-exec-7] HomeController.home(30) | Da truy cap
-[2022-08-30 11:54:06] INFO [http-nio-8080-exec-4] HomeController.home(30) | Da truy cap
-[2022-08-30 11:54:25] INFO [http-nio-8080-exec-7] HomeController.login(49) | Login success name
-[2022-08-30 11:54:28] INFO [http-nio-8080-exec-8] HomeController.login(49) | Login success name
-[2022-08-30 11:54:44] INFO [http-nio-8080-exec-4] HomeController.home(30) | Da truy cap
-[2022-08-30 11:58:50] INFO [http-nio-8080-exec-6] HomeController.home(30) | Da truy cap
-[2022-08-30 11:58:54] INFO [http-nio-8080-exec-7] HomeController.login(49) | Login success name
-[2022-08-30 12:23:00] INFO [http-nio-8080-exec-3] HomeController.home(30) | Da truy cap
-[2022-08-30 12:23:10] INFO [http-nio-8080-exec-8] HomeController.login(49) | Login success anonymousUser
-[2022-08-30 12:23:22] INFO [http-nio-8080-exec-8] HomeController.login(49) | Login success anonymousUser
-[2022-08-30 12:24:12] INFO [http-nio-8080-exec-1] HomeController.home(30) | Da truy cap
-[2022-08-30 12:24:23] INFO [http-nio-8080-exec-5] HomeController.home(30) | Da truy cap
-[2022-08-30 12:24:26] INFO [http-nio-8080-exec-7] HomeController.login(49) | Login success name
-[2022-08-30 12:25:18] INFO [http-nio-8080-exec-8] HomeController.home(30) | Da truy cap
-[2022-08-30 12:25:53] INFO [http-nio-8080-exec-3] HomeController.login(49) | Login success name
-[2022-08-30 12:25:54] INFO [http-nio-8080-exec-2] HomeController.login(49) | Login success name
-[2022-08-30 12:25:56] INFO [http-nio-8080-exec-7] HomeController.login(49) | Login success anonymousUser
-[2022-08-30 12:28:19] INFO [http-nio-8080-exec-4] HomeController.home(30) | Da truy cap
-[2022-08-30 12:31:36] INFO [http-nio-8080-exec-5] HomeController.login(44) | Login success name
-[2022-08-30 12:31:45] INFO [http-nio-8080-exec-6] HomeController.login(44) | Login success anonymousUser
-[2022-08-30 12:31:45] INFO [http-nio-8080-exec-7] HomeController.login(44) | Login success anonymousUser
-[2022-08-30 12:31:53] INFO [http-nio-8080-exec-6] HomeController.login(44) | Login success name
-[2022-08-30 13:53:57] INFO [http-nio-8080-exec-1] HomeController.login(44) | Login success anonymousUser
-[2022-08-30 13:54:38] INFO [http-nio-8080-exec-2] HomeController.login(44) | Login success name
-[2022-08-30 13:54:43] INFO [http-nio-8080-exec-5] HomeController.login(44) | Login success name
-[2022-08-30 13:54:45] INFO [http-nio-8080-exec-7] HomeController.login(44) | Login success name
-[2022-08-30 13:55:07] INFO [http-nio-8080-exec-4] HomeController.login(44) | Login success anonymousUser
-[2022-08-30 13:55:08] INFO [http-nio-8080-exec-5] HomeController.login(44) | Login success anonymousUser
-[2022-08-30 13:55:20] INFO [http-nio-8080-exec-10] HomeController.login(44) | Login success name
-[2022-08-30 13:55:23] INFO [http-nio-8080-exec-3] HomeController.login(44) | Login success name
-[2022-08-30 13:56:27] INFO [http-nio-8080-exec-1] HomeController.home(30) | Da truy cap
-[2022-08-30 13:56:31] INFO [http-nio-8080-exec-3] HomeController.home(30) | Da truy cap
-[2022-08-30 13:56:33] INFO [http-nio-8080-exec-5] HomeController.home(30) | Da truy cap
-[2022-08-30 13:56:42] INFO [http-nio-8080-exec-6] HomeController.login(44) | Login success name
-[2022-08-30 13:56:43] INFO [http-nio-8080-exec-7] HomeController.home(30) | Da truy cap
-[2022-08-30 14:13:08] INFO [http-nio-8080-exec-8] HomeController.login(46) | Login success name
-[2022-08-30 15:05:48] INFO [http-nio-8080-exec-9] HomeController.login(46) | Login success name
-[2022-08-30 15:05:59] INFO [http-nio-8080-exec-4] HomeController.login(46) | Login success name
-[2022-08-30 15:06:03] INFO [http-nio-8080-exec-9] HomeController.login(46) | Login success name
-[2022-08-30 15:06:09] INFO [http-nio-8080-exec-3] HomeController.login(46) | Login success anonymousUser
-[2022-08-30 15:06:10] INFO [http-nio-8080-exec-4] HomeController.login(46) | Login success anonymousUser
-[2022-08-30 15:14:33] INFO [http-nio-8080-exec-3] HomeController.home(31) | Da truy cap
-[2022-08-30 15:14:41] INFO [http-nio-8080-exec-7] HomeController.home(31) | Da truy cap
-[2022-08-30 15:14:43] INFO [http-nio-8080-exec-9] HomeController.home(31) | Da truy cap
-[2022-08-30 15:14:45] INFO [http-nio-8080-exec-1] HomeController.home(31) | Da truy cap
-[2022-08-30 15:14:55] INFO [http-nio-8080-exec-6] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 15:22:24] INFO [http-nio-8080-exec-5] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 15:47:12] INFO [http-nio-8080-exec-10] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 15:47:21] INFO [http-nio-8080-exec-6] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 15:47:34] INFO [http-nio-8080-exec-4] HomeController.home(31) | Da truy cap
-[2022-08-30 15:47:37] INFO [http-nio-8080-exec-8] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 15:47:40] INFO [http-nio-8080-exec-10] HomeController.home(31) | Da truy cap
-[2022-08-30 15:47:43] INFO [http-nio-8080-exec-4] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 16:06:43] INFO [http-nio-8080-exec-9] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 16:06:46] INFO [http-nio-8080-exec-3] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 16:06:48] INFO [http-nio-8080-exec-4] HomeController.home(31) | Da truy cap
-[2022-08-30 16:06:50] INFO [http-nio-8080-exec-7] HomeController.home(31) | Da truy cap
-[2022-08-30 16:06:59] INFO [http-nio-8080-exec-2] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 16:07:19] INFO [http-nio-8080-exec-5] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 16:07:21] INFO [http-nio-8080-exec-7] HomeController.home(31) | Da truy cap
-[2022-08-30 16:07:23] INFO [http-nio-8080-exec-9] HomeController.home(31) | Da truy cap
-[2022-08-30 16:53:48] INFO [http-nio-8080-exec-1] HomeController.home(31) | Da truy cap
-[2022-08-30 17:00:42] INFO [http-nio-8080-exec-9] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:20:39] INFO [http-nio-8080-exec-1] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:23:02] INFO [http-nio-8080-exec-6] HomeController.home(31) | Da truy cap
-[2022-08-30 17:23:05] INFO [http-nio-8080-exec-7] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:23:06] INFO [http-nio-8080-exec-8] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:23:14] INFO [http-nio-8080-exec-1] HomeController.login(46) | Login success anonymousUser
-[2022-08-30 17:23:19] INFO [http-nio-8080-exec-6] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:23:20] INFO [http-nio-8080-exec-7] HomeController.login(46) | Login success vietanhvs
-[2022-08-30 17:29:59] INFO [http-nio-8080-exec-5] HomeController.home(31) | Da truy cap
-[2022-08-30 17:30:18] INFO [http-nio-8080-exec-1] HomeController.home(31) | Da truy cap
-[2022-08-30 17:48:32] INFO [http-nio-8080-exec-7] HomeController.home(31) | Da truy cap
-[2022-08-30 17:54:07] INFO [http-nio-8080-exec-1] HomeController.home(33) | Da truy cap
+[2022-08-31 09:13:23] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(27) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:34)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:22)
+	at edu.hanoi.Application.main(Application.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:13:23] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(30) | -- Context start application null
+[2022-08-31 09:18:25] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:39)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:27)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:18:25] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(35) | -- Context start application null
+[2022-08-31 09:20:27] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:39)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:27)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:20:27] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(35) | -- Context start application null
+[2022-08-31 09:20:31] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:39)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:27)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:20:31] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(35) | -- Context start application null
+[2022-08-31 09:26:16] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:26:16] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 09:27:13] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:27:13] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 09:28:22] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:28:22] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 09:29:18] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:29:19] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 09:33:03] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "java.sql.Connection.getMetaData()" because the return value of "javax.sql.DataSource.getConnection()" is null
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.getMetaData()" because the return value of "javax.sql.DataSource.getConnection()" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:33:03] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application edu.hanoi.Application$1@cd00d7
+[2022-08-31 09:36:19] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "java.sql.Connection.getMetaData()" because the return value of "javax.sql.DataSource.getConnection()" is null
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.getMetaData()" because the return value of "javax.sql.DataSource.getConnection()" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 09:36:19] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application edu.hanoi.Application$1@7ae341ac
+[2022-08-31 09:51:26] INFO [http-nio-8080-exec-9] HomeController.home(32) | Da truy cap
+[2022-08-31 09:51:44] INFO [http-nio-8080-exec-3] GroupController.addGroup(27) | -- Add new group -> edu.hanoi.model.Group@23af2eea
+[2022-08-31 09:52:38] INFO [http-nio-8080-exec-6] GroupController.addGroup(27) | -- Add new group -> edu.hanoi.model.Group@45e23eb4
+[2022-08-31 09:52:47] INFO [http-nio-8080-exec-9] GroupController.addGroup(27) | -- Add new group -> edu.hanoi.model.Group@6427ae9b
+[2022-08-31 09:54:49] INFO [http-nio-8080-exec-4] GroupController.addGroup(27) | -- Add new group -> edu.hanoi.model.Group@38ae2503
+[2022-08-31 10:14:39] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:14:39] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 10:15:22] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:15:22] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 10:16:20] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:16:20] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 10:18:50] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(31) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:38)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:26)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:18:50] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(34) | -- Context start application null
+[2022-08-31 10:18:56] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:18:56] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null
+[2022-08-31 10:22:19] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:22:19] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null
+[2022-08-31 10:27:18] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:27:18] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null
+[2022-08-31 10:36:02] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:36:02] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null
+[2022-08-31 10:39:32] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:39:32] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null
+[2022-08-31 10:44:28] ERROR [restartedMain] ContextStartEventHandler.onApplicationEvent(29) | java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+java.lang.NullPointerException: Cannot invoke "javax.sql.DataSource.getConnection()" because "this.dataSource" is null
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:36)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:24)
+	at edu.hanoi.Application.main(Application.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+[2022-08-31 10:44:28] INFO [restartedMain] ContextStartEventHandler.onApplicationEvent(32) | -- Context start application null

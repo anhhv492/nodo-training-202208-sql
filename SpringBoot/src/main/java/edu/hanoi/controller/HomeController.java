@@ -24,7 +24,6 @@ public class HomeController {
     HttpServletRequest request;
     @Autowired
     HttpServletResponse response;
-
     private final static Logger logger = Logger.getLogger(HomeController.class);
     @RequestMapping("index")
     public ModelAndView home(){

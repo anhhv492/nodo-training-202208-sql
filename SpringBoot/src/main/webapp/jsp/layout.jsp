@@ -17,7 +17,8 @@
         <a href="/home/form-login"> Đăng nhập </a>
     </sec:authorize>
     <sec:authorize access="hasAnyRole('ROLE_USER')">
-        <a href="/home/user">Cá nhân</a>
+        <a href="/home/user"> Cá nhân </a>
+        <a href="/group/add-form"> Group </a>
         <a style="text-align: center" href="/home/logout"> Đăng xuất </a>
     </sec:authorize>
     </tr>
