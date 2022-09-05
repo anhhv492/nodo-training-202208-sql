@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="/js/stomp.js"></script>
+  <script src="/js/sockjs-0.3.4.min.js"></script>
+</head>
+<body onload="connect()">
+    <form method="post" action="javascript:save()">
+        <p>Username: <input type="text" id="username" name="username" /></p>
+        <p>Password: <input type="password" id="password" name="password" /></p>
+        <p>Email: <input type="email" id="email" name="email" /></p>
+        <p>Age: <input type="number" id="age" name="age" /></p>
+        <p>Group (ID): <input type="text" id="groupId" name="groupId" /></p>
+        <p class="submit">
+            <input type="submit" name="save" value="Save" >
+        </p>
+    </form>
+    <p id="response"></p>
+</body>
+<script type="text/javascript">
+  var stompClient = null;
+  function connect(){
+      var socket = new SockJS('/user');
+      stompClient = Stomp.over(socket);
+      stompClient.connect({},
+      function (frame){
+          stompClient.subscribe('/topic/chat',function (message){
+              showMessage(JSON.parse(message.body).content);
+          })
+          console.log('- Connected: '+frame);
+          stompClient.subscribe('/topic/chat',
+              function (message){
+                  var text = JSON.parse(message.body).content;
+                  // document.getElementById('response').innerHTML = text;
+                  showMessage(text);
+              });
+          loadGroups();
+      });
+  }
+  function loadGroups() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange=function () {
+          if(xmlhttp.readyState == XMLHttpRequest.DONE){
+              console.log(xmlhttp.responseText);
+          }
+      }
+      xmlhttp.open("GET","/groups",true);
+      xmlhttp.send();
+  }
+  function showMessage(text){
+      var response = document.getElementById('response');
+      var p = document.createElement('p');
+      p.appendChild(document.createTextNode(text));
+      response.appendChild(p);
+  }
+  function save(){
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      var email = document.getElementById('email').value;
+      var age = document.getElementById('age').value;
+      var groupId = document.getElementById('groupId').value;
+      console.log("Sending... "+username);
+      stompClient.send("/app/user",{},
+        JSON.stringify({
+            'username':username,
+            'password':password,
+            'email':email,
+            'age':age,
+            'groupId':groupId
+        }));
+  }
+</script>
+</html>

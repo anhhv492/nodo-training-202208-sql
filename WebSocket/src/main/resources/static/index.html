@@ -9,17 +9,46 @@
         var stompClient=null;
         function disconnect() {
             if(stompClient!=null){
-                stompClient.disconnect;
+                stompClient.disconnect();
             }
+            enableChatbox(false);
             console.log("-- Disconnected stomp client...")
         }
         function connect() {
             var socket = new SockJS('/message');
             stompClient =Stomp.over(socket);
             if(stompClient!=null){
-            stompClient.connect({},function (frame){
-                console.log('-- Connected: '+frame);
-            });
+            stompClient.connect({},
+                function (frame){
+                stompClient.subscribe('/topic/chat',
+                    function (message){
+                        var text = JSON.parse(message.body).content;
+                        // document.getElementById('response').innerHTML = text;
+                        showMessage(text);
+                    });
+                    console.log('-- Connected: '+frame);
+                });
+            }
+            enableChatbox(true);
+        }
+        function showMessage(text){
+            var response = document.getElementById('response');
+            var p = document.createElement('p');
+            p.appendChild(document.createTextNode(text));
+            response.appendChild(p);
+        }
+        function send() {
+            var text = document.getElementById('message').value;
+            console.log("-- Sending... "+text);
+            stompClient.send("/app/message",{},JSON.stringify({'content':text}))
+        }
+        function enableChatbox(connected) {
+            document.getElementById('connect').disable = connected;
+            document.getElementById('disconnect').disable = !connected;
+            if(connected){
+                document.getElementById('conversationDiv').style.visibility='visible';
+            }else{
+                document.getElementById('conversationDiv').style.visibility='hidden';
             }
         }
     </script>
@@ -34,7 +63,7 @@
     <div id="conversationDiv">
         <label>Message: </label>
         <input type="text" id="message">
-        <button id="send" onclick="send();">Send</button>
+        <button id="send" onclick="send()">Send</button>
         <p id="response"></p>
     </div>
 </div>
