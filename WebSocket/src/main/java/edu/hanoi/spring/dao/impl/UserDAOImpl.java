@@ -19,10 +19,11 @@ public class UserDAOImpl implements UserDAO {
     @Autowired
     JdbcTemplate jdbcTemplate;
     @Override
-    public String insert(User user, Group group) {
+    public String insert(User user) {
         try {
+            System.out.println(user.getGroup().getId()+" id group");
             jdbcTemplate.update("INSERT INTO hn_user (username, email, password, age, groupId)VALUES (?,?,?,?,?)",
-                    user.getUsername(),user.getEmail(),user.getPassword(),user.getAge(),group);
+                    user.getUsername(),user.getEmail(),user.getPassword(),user.getAge(),user.getGroup().getId());
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
