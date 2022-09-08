@@ -1,0 +1,5 @@
+<p>{{name}}</p>
+<button (click)="isDanger = !isDanger">Toggle Danger</button>
+<button (click)="isWarning = !isWarning">Toggle Warning</button>
+<div class="box" [class.red-border]="isDanger"></div>
+<div class="box" [class.warning-border]="isWarning"></div>

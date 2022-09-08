@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <app-day8-detail *ngFor="let author of authors"
+    [author]="author"
+    (select)="onSelected($event)"
+    (deleted)="onDeleted($event)"
+    ></app-day8-detail>
+  <br>
+<div>
+  current select author: {{currentAuthor.firstName}}
+  current select author: {{currentAuthor.lastName}}
+</div>
+</body>
+</html>
