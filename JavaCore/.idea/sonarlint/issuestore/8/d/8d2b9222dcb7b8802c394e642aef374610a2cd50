@@ -1,18 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ƒ×ô
-=
-java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
-=
-java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-?
-java:S2140
-")Use "java.util.Random.nextInt()" instead.(àïå…
-N	java:S106"9Replace this use of System.out or System.err by a logger.(”‰çà
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ìÝ—‘üÿÿÿÿ
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(áñÁ·

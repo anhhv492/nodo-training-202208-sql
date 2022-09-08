@@ -1,16 +1,0 @@
-
-`	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-`	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-h
-java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ë×Œøûÿÿÿÿ
-Z
-java:S2147#"DCombine this catch with the one at line 33, which has the same body.(ï­£Ä
-P
-java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(ÆÔÚ
-\
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(¤¹•½øÿÿÿÿ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(÷Æå‘8Ù—Òşª0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(±ë¼ıÿÿÿÿ8ê¼Óşª0
-T	java:S106"9Replace this use of System.out or System.err by a logger.(“‹Ğx8ì­Õşª0
-S
-java:S1128	"6Remove this unused import 'java.nio.channels.Channel'.(÷ê¹8’ÉÔşª0
