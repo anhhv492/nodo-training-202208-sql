@@ -1,0 +1,25 @@
+<p>day14 works!</p>
+<div class="card">
+  <div class="card-header">
+    You have selected
+    <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container>
+    </div>
+  <div class="card-body">
+    There are
+    <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container>
+     was
+    selected.
+  </div>
+  <div class="card-footer">
+    You have selected
+    <ng-container [ngTemplateOutlet]="counterTmpl"></ng-container>
+     .
+  </div>
+</div>
+<ng-template #counterTmpl>
+  <span class="badge bg-danger">{{ counter }}</span> items.
+</ng-template>
+<ng-template #linkTemplate let-link>
+  {{link}}
+</ng-template>
+<tabs [navs]="navs" [linkTemplate]="linkTemplate"></tabs>

@@ -1,9 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
 <!--<app-hi></app-hi>-->
 <!--<app-day5></app-day5>-->
+<p>{{name}}</p>
 <!--<app-day6></app-day6>-->
 <!--<button (click)="currentProgress = currentProgress+1">Increase Progress</button>-->
 <!--<app-day7></app-day7>-->
 <!--<app-day7 [progress]="currentProgress" [progressColor]="'blue'"></app-day7>-->
 <!-- <app-day8-list></app-day8-list> -->
-<app-day9 [(checked)]="isChecked"></app-day9>
-<!-- <app-day10></app-day10> -->
+<!-- <app-day9 [(checked)]="isChecked"></app-day9> -->
+<!-- <app-day10 #toggleComp [(checked)]="isChecked"></app-day10>
+<button #toggleButton (click)="toggleComp.toggle()">toggle</button>
+<br> -->
+<!-- <app-day10 [(checked)]="isChecked"></app-day10> -->
+<!-- <button #toggleButton>toggle</button> -->
+<!-- <input type="text" [ngModel]="name" (ngModelChange)="name=$event">
+<app-day13 [(checked)]="questions.question1" header="Header 1"
+question="question1" content="content 1"></app-day13>
+<app-day13 [(checked)]="questions.question2" header="Header 2"
+question="question2" content="content 2" [canSkip]="true"></app-day13> -->
+<!-- <app-day14></app-day14> -->
+<!-- <app-day18></app-day18> -->
+<router-outlet></router-outlet>
+</body>
+</html>
