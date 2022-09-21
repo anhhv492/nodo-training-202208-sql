@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans default-init-method="initMessage" default-destroy-method="relase"-->
+<beans
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@27.118.22.14:1521:orcl"/>
+        <property name="username" value="SCOTT"/>
+        <property name="password" value="SCOTT"/>
+    </bean>
+    <bean id="studentJdbcDAO" class="com.example.jdbc.StudentJdbcDAO">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="helloJavaClazz" class="com.example.spring.HelloClazz" init-method="initMessage">
+        <constructor-arg type="int" value="5"/>
+        <property name="message" value="hello bean inheritance"/>
+    </bean>
+
+    <bean id="helloJavaClazz2" class="com.example.spring.HelloClazz" init-method="initMessage">
+        <constructor-arg ref="helloJavaClazz" />
+        <property name="message" value="Hello Bean inheritance!"/>
+    </bean>
+
+    <bean id="startEventHandler" class="com.example.spring.ContextStartEventHandler"/>
+
+    <bean class="com.example.spring.InitSampleBean">
+        <constructor-arg ref="helloJavaClazz" />
+    </bean>
+    <bean id="sampleTemplate" abstract="true">
+        <property name="message" value="Template say Hello!"/>
+    </bean>
+    <bean id="helloWorld" class="com.example.spring.HelloWorld"
+          parent="sampleTemplate">
+        <constructor-arg type="java.lang.String" index="0" value="Thuan"/>
+        <constructor-arg ref="helloJavaClazz"/>
+        <property name="clazz">
+<!--            <bean id="helloJavaClazz" class="com.example.spring.HelloClazz">-->
+<!--                <property name="message" value="Hello Class Instance is inner Bean!"/>-->
+<!--            </bean>-->
+            <bean id="helloJavaClazz" class="com.example.spring.HelloClazz">
+                <property name="clazzes">
+                    <list>
+                        <ref bean="jee01"/>
+                        <null/>
+                    </list>
+                </property>
+                <property name="message" value="Hello Annotation based Configuration!"/>
+            </bean>
+        </property>
+    </bean>
+    <bean id="clazz" class="com.example.spring.HelloClazz"/>
+    <bean id="jee01" class="com.example.spring.JavaClazz">
+        <property name="students">
+            <map>
+                <entry key="Ha Viet Anh" value="20"/>
+                <entry key="Nguyen Van Hoa" value="15"/>
+                <entry key="Do Van Anh" value="26"/>
+                <entry key="Huan Ro SI" value="35"/>
+            </map>
+        </property>
+    </bean>
+</beans>
