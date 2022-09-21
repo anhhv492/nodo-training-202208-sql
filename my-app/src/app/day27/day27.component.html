@@ -1,8 +1,9 @@
 <p>day27 works!</p>
 <ul>
-  <li *ngFor="let article of articles|async">
+  <li *ngFor="let article of articles|async" style="border:1px solid black;padding: 20px">
     {{article.title}}
     <br>
-    {{article.body}}
+<!--    <a [routerLink]="['/detail',article.slug]">Read more</a>-->
+    <a style="cursor: pointer;color: blue" (click)="onReadMoreClick(article.slug)">Read more</a>
   </li>
 </ul>

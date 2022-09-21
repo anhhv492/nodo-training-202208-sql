@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Article } from './article';
+import {ArticleService} from "../services/article.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-day27',
@@ -10,11 +12,13 @@ import { Article } from './article';
 export class Day27Component implements OnInit {
   articles:Observable<Article[]>| undefined;
   ngOnInit():void{
-    this.articles=of<Article[]>([
-      {title:'title 1',body:'body 1',slug:'slug 1'},
-      {title:'title 2',body:'body 2',slug:'slug 2'},
-    ])
+    this.articles=this.articleService.articles;
   }
-  constructor() { }
-
+  constructor(
+    private readonly articleService:ArticleService,
+    private readonly router:Router
+  ) {}
+  onReadMoreClick(slug:string){
+    this.router.navigate(['/detail',slug]);
+  }
 }
