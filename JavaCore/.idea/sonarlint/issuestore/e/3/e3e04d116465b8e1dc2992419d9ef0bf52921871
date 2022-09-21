@@ -1,0 +1,15 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(çù‹ð
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ý†üÿÿÿÿÿ8è¦óƒ«0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Â×öé
+7
+java:S1116"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+U
+java:S1854"8Remove this useless assignment to local variable "path".(šïœ½8ÿ¦óƒ«0
+H
+java:S1172"+Remove this unused method parameter "args".(Î½ºð8‚§óƒ«0
+F
+java:S1481")Remove this unused "path" local variable.(šïœ½8„§óƒ«0
+M
+java:S1481"+Remove this unused "Finder" local variable.(™ý†üÿÿÿÿÿ8…§óƒ«0

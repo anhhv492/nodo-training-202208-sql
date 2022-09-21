@@ -1,0 +1,7 @@
+
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÇÉ×Æÿÿÿÿÿ8«Œžš¬0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(êÉ³£üÿÿÿÿ8­Œžš¬0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã¸ûñúÿÿÿÿ8¯Œžš¬0
+X
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËÞˆ8ÕÛ¡š¬0

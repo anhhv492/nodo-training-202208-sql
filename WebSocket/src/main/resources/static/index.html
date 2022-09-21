@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN Spring WebSocket</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script type="text/javascript">
+        var stompClient=null;
+        function disconnect() {
+            if(stompClient!=null){
+                stompClient.disconnect();
+            }
+            enableChatbox(false);
+            console.log("-- Disconnected stomp client...")
+        }
+        function connect() {
+            var socket = new SockJS('/message');
+            stompClient =Stomp.over(socket);
+            if(stompClient!=null){
+            stompClient.connect({},
+                function (frame){
+                stompClient.subscribe('/topic/chat',
+                    function (message){
+                        var text = JSON.parse(message.body).content;
+                        // document.getElementById('response').innerHTML = text;
+                        showMessage(text);
+                    });
+                    console.log('-- Connected: '+frame);
+                });
+            }
+            enableChatbox(true);
+        }
+        function showMessage(text){
+            var response = document.getElementById('response');
+            var p = document.createElement('p');
+            p.appendChild(document.createTextNode(text));
+            response.appendChild(p);
+        }
+        function send() {
+            var text = document.getElementById('message').value;
+            console.log("-- Sending... "+text);
+            stompClient.send("/app/message",{},JSON.stringify({'content':text}))
+        }
+        function enableChatbox(connected) {
+            document.getElementById('connect').disable = connected;
+            document.getElementById('disconnect').disable = !connected;
+            if(connected){
+                document.getElementById('conversationDiv').style.visibility='visible';
+            }else{
+                document.getElementById('conversationDiv').style.visibility='hidden';
+            }
+        }
+    </script>
+</head>
+<body onload="disconnect()" >
+<div style="text-align: center">
+    <h2>Welcome to Hn Chat Box : vietanhvs</h2>
+    <div style="margin-bottom: 10px">
+      <button id="connect" onclick="connect()">Connect</button>
+      <button id="disconnect" onclick="disconnect()">Disconnect</button>
+    </div>
+    <div id="conversationDiv">
+        <label>Message: </label>
+        <input type="text" id="message">
+        <button id="send" onclick="send()">Send</button>
+        <p id="response"></p>
+    </div>
+</div>
+</body>
+</html>

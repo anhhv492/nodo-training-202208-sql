@@ -1,0 +1,4 @@
+
+U
+java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(Ü…“¸ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ

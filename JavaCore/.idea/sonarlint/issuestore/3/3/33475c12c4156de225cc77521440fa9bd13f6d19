@@ -1,0 +1,11 @@
+
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¥ïúäøÿÿÿÿ
+c
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ó¦†U
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(äİ„ş
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+F
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
