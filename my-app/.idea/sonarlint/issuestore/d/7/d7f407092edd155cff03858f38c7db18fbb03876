@@ -1,2 +1,0 @@
-
-­typescript:S1874"‹'pluck' is deprecated. Use  {@link  map  }  and optional chaining: `pluck('foo', 'bar')` is `map(x => x?.foo?.bar)`. Will be removed in v8.(Œ†¤ôÿÿÿÿÿ
