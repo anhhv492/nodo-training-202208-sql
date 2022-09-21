@@ -1,26 +1,0 @@
-
-L
-java:S1854"6Remove this useless assignment to local variable "c2".(ãÒ¤‰
-X
-java:S1854"=Remove this useless assignment to local variable "intStream".(‚¡Úõùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(šÈŸˆıÿÿÿÿ
-I
-java:S1481".Remove this unused "intStream" local variable.(‚¡Úõùÿÿÿÿ
-B
-java:S1602",Remove useless curly braces around statement(ãÒ¤‰
-V
-java:S1612"@Replace this lambda with method reference 'System.out::println'.(ãÒ¤‰
-N	java:S106"9Replace this use of System.out or System.err by a logger.(„íí
-=
-java:S1481"'Remove this unused "c2" local variable.(ãÒ¤‰
-S	java:S106"9Replace this use of System.out or System.err by a logger.(©¤»òşÿÿÿÿ
-G
-java:S1602(",Remove useless curly braces around statement(ÎºÈüÿÿÿÿ
-M	java:S106)"9Replace this use of System.out or System.err by a logger.(¸Ÿù#
-n
-java:S1602+"SRemove useless curly braces around statement and then remove useless return keyword(œ³èÍÿÿÿÿÿ
-n
-java:S16020"SRemove useless curly braces around statement and then remove useless return keyword(İ™¤øÿÿÿÿ
-N	java:S1063"9Replace this use of System.out or System.err by a logger.(Š¦ˆú
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

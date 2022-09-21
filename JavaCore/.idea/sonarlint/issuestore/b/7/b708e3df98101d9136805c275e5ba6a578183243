@@ -1,10 +1,0 @@
-
-U
-java:S1854":Remove this useless assignment to local variable "result".(¨‘ãÊıÿÿÿÿ
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(¶´›§şÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù‹”ğıÿÿÿÿ
-F
-java:S1481"+Remove this unused "result" local variable.(¨‘ãÊıÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(Ì„õú

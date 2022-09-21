@@ -1,0 +1,29 @@
+<p>day18 works!</p>
+<!-- <p>{{currentDate|date:'shortDate'}}</p>
+<p>{{currentDate|date:'mediumDate'}}</p>
+<p>{{currentDate|date:'fullDate'}}</p>
+<p>{{currentDate|date:'yyyy/MM/dd'}}</p>
+
+<p>{{'Viet Anh'|lowercase}}</p>
+<p>{{'Viet Anh'|uppercase}}</p>
+
+<p>{{250|currency}}</p>
+<p>{{2500000|currency:'VND'}}</p>
+
+<p>{{23122.24123123|number:'1.1-4'}}</p>
+<p>{{0.57|percent}}</p>
+
+<p>{{users|json}}</p> -->
+<!-- {{interval|async}} -->
+
+<!-- <p>{{formatAddress(addr)}}</p> -->
+<p>{{addr|formatAddress:'vietanhvs1'}}</p>
+Full user list:
+<ul>
+  <li *ngFor="let user of users">{{user.name}} - {{user.age}}</li>
+</ul>
+Adult user list:
+<ul>
+  <li *ngFor="let user of users|adult">{{user.name}} - {{user.age}}</li>
+</ul>
+<button (click)="addUser()">Add</button>

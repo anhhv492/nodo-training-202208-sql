@@ -1,0 +1,17 @@
+<header>
+  <!-- {{header}} -->
+  <ng-content></ng-content>
+</header>
+<div class="toggle-wrapper"[class.checked]="checked"
+  (click)="checkedChange.emit(!checked)"tabindex="0">
+  <div class="toggle"></div>
+</div>
+<div class="toggle-lable">
+  <!-- {{question}} -->
+</div>
+<div class="toggle-content">
+  <!-- {{content}} -->
+</div>
+<div class="skip" *ngIf="canSkip">
+Skip
+</div>

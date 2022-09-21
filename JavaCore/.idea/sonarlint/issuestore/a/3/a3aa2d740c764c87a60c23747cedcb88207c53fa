@@ -1,10 +1,0 @@
-
-8
-java:S3626"Remove this redundant jump.(ÉŠ©ƒ8¹¼Œöª0
-W
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(õû¨õ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(äû‚Úúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‘ÜÚ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Í¤ï
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(ı¤Îàıÿÿÿÿ
-U	java:S106""9Replace this use of System.out or System.err by a logger.(ƒÁóå8¹¦öõª0

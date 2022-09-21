@@ -1,15 +1,0 @@
-
-j
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ßé¡üÿÿÿÿ8‘…ş¤¬0
-i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ8ÜºŸ¥¬0
-J
-java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8˜…ş¤¬0
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ÛŞè(8™…ş¤¬0
-O
-java:S6126"2Replace this String concatenation with Text block.(¡¨˜Ï8¶ˆÆ¥¬0
-T	java:S106"9Replace this use of System.out or System.err by a logger.(™Â˜K8¶ˆÆ¥¬0
-F
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8š…ş¤¬0
-O
-java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8š…ş¤¬0

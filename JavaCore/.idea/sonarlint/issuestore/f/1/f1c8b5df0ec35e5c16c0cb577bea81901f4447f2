@@ -1,8 +1,0 @@
-
-p
-java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(Öùµ8Ÿ«§«0
-]
-java:S1612"@Replace this lambda with method reference 'Result::getSystemId'.(Öùµ8 «§«0
-N
-java:S1602",Remove useless curly braces around statement(½ê¶Ğüÿÿÿÿ8¡«§«0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¢«§«0
